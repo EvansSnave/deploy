@@ -6,6 +6,7 @@ import Countries from "./contries"
 function App() {
   return (
     <div className="App">
+      <div>Hello</div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/countries" element={<Countries />} />
